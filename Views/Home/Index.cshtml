@@ -2,42 +2,55 @@
 @{
     ViewData["Title"] = "Hotsite";
 }
-
-<div>
-    <h1>Iniciativa Saúde da Cidade</h1>
-    <p>
-        Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
-    </p>
-    <p>
-        Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
-    </p>
-</div>
-
-<div>
-    <h2>Entre em contato!:</h2>
-    <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
-
-    <form action="/Home/Cadastrar" method="POST">
-        <div>
-            <label asp-for="Nome">Nome:</label>
-            <input asp-for="Nome" />
+<main>
+    <section class="primeiro">
+        <div class="teste1">
+            <h1>Iniciativa Saúde da Cidade</h1>
+            <p>
+                Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
+            <p>
+                Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
         </div>
-        <div>
-            <label asp-for="Email">Email:</label>
-            <input asp-for="Email" />
-        </div>
-        <div>
-            <label asp-for="Mensagem">Mensagem (opcional):</label>
-            <textarea asp-for="Mensagem"></textarea>
-        </div>
-        <div>
-            <input type="submit" value="Enviar" />
-        </div>
-    </form>
-</div>
 
-<div>
-    <a href="#">Agenda de eventos</a>
-    <a href="#">Dicas de vida saudável</a>
-    <a href="#">Apoiadores</a>
-</div>
+        <div>
+            <img class="img-fluid-1" src="/image/img1.jpg" alt="">
+        </div>
+    </section>
+    
+    <section class="segunda">
+        <div class="teste2">
+        <h2>Entre em contato!</h2>
+        <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+
+        <form action="/Home/Cadastrar" method="POST">
+            <div>
+                <label asp-for="Nome">Nome:</label>
+                <input asp-for="Nome" class="for1"/>
+            </div>
+            <div>
+                <label asp-for="Email">Email:</label>
+                <input asp-for="Email" class="for2"/>
+            </div>
+            <div>
+                <label asp-for="Mensagem" class="log">Mensagem (opcional):</label>
+                <textarea asp-for="Mensagem" class="for3"></textarea>
+            </div>
+            <div>
+                <input type="submit" class="log1" value="Enviar" />
+            </div>
+        </form>
+        </div>
+        
+        <div class="teste3">
+            <img src="/image/img2.jpg" class="im1">
+            <img src="/image/img3.jpg" class="im1">
+            <img src="/image/img4.jpg" class="im1">
+
+            <a href="#">Agenda de eventos</a>
+            <a href="#">Dicas de vida saudável</a>            
+            <a href="#">Apoiadores</a>
+        </div>
+    </section>
+</main>

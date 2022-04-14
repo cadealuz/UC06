@@ -61,7 +61,6 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: red;
 }
 .footer {
   position: absolute;
@@ -69,4 +68,90 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+.teste1{
+  font-size: 23px;
+  padding: 1em;
+}
+
+.teste2{
+  border:1px solid #3c3c3c;
+  padding: 1em;
+  margin: 20px;
+}
+
+.img-fluid-1{
+  height: 500px;
+  width: 969px;
+}
+
+.teste3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+
+.primeiro{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.segunda{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 20px;
+}
+
+.for1{
+  position: relative;
+  left: 127px;
+  margin-bottom: 5px;
+  padding: 9px;
+  width: 190px;
+}
+
+.for2{
+  position: relative;
+  left: 127px;
+  margin-bottom: 5px;
+  padding: 9px;
+  width: 190px;
+}
+
+.for3{
+  position: relative;
+  left: 1px;
+  margin-bottom: 5px;
+  padding: 9px;
+  width: 190px;
+  height: 100px;
+}
+
+.log{
+  position: relative;
+  top: -100px;
+}
+
+.log1{
+  position: relative;
+  left: 344px;
+}
+
+.im1{
+  height: 200px;
+  width: 200px;
+}
+
+.bom{
+  text-align: center;
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
 }
