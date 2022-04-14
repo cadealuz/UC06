@@ -10185,6 +10185,11 @@
   "RootNamespace": "Hotsite",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\cadea\\Desktop\\Senac\\UC06\\Atividade 1 - Gleisson Trindade\\projetohotsite\\Views\\Home\\CadastroRealizado.cshtml",
+      "TargetPath": "Views\\Home\\CadastroRealizado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\cadea\\Desktop\\Senac\\UC06\\Atividade 1 - Gleisson Trindade\\projetohotsite\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

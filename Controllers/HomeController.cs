@@ -28,7 +28,12 @@ namespace Hotsite.Controllers
         {
             DatabaseService dbs = new DatabaseService();
             dbs.CadastraInteresse(cad);
-            return View("Index",cad);
+            //return View("Index",cad);
+            return RedirectToAction("CadastroRealizado");
+        }
+        public IActionResult CadastroRealizado()
+        {
+            return View();
         }
 
     }
