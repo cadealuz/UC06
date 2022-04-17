@@ -35,6 +35,5 @@ namespace Hotsite.Controllers
         {
             return View();
         }
-
     }
 }
